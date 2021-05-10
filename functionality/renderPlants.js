@@ -1,4 +1,4 @@
-function renderPlants(plants) {
+export function renderPlants(plants) {
     const li = document.createElement('li');
     li.className = plants.category;
     li.title = plants.description;
@@ -8,7 +8,7 @@ function renderPlants(plants) {
     li.appendChild(h3);
 
     const img = document.createElement('img');
-    img.src = '../assets/' + plants.image;
+    img.src = '../images/' + plants.image;
     img.alt = plants.name + ' image';
     li.appendChild(img);
 
@@ -16,10 +16,7 @@ function renderPlants(plants) {
     p.className = 'price';
 
     const usd = '$' + plants.price.toFixed(2);
-    // const usd = plants.price.toLocaleString('en-US', { 
-    //     style: 'currency', 
-    //     currency: 'USD' 
-    // });
+
     p.textContent = usd;
 
     const button = document.createElement('button');
@@ -31,5 +28,3 @@ function renderPlants(plants) {
 
     return li;
 }
-
-export default renderplants;

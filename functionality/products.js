@@ -1,9 +1,9 @@
-import { plants } from functionality / plants.js;
+import plants from './plants.js';
+import { renderPlants } from './renderPlants.js';
 
-import { renderPlants} from 
+const ul = document.querySelector('#plants');
 
-const ul = document.getElementById('plants');
-
-for (plant of plants) {
-    const 
+for (const plant of plants) {
+    const dom = renderPlants(plant);
+    ul.append(dom);
 }
