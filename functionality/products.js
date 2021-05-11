@@ -1,5 +1,5 @@
-import plants from './plants.js';
-import { renderPlants } from './renderPlants.js';
+import plants from '../functionality/plants.js';
+import { renderPlants } from '../functionality/renderPlants.js';
 
 const ul = document.querySelector('#plants');
 
