@@ -1,4 +1,4 @@
-import plants from './plants.js';
+import plants from './plants';
 import { renderPlants } from './renderPlants.js';
 
 const ul = document.querySelector('#plants');

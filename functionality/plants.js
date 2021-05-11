@@ -1,5 +1,5 @@
 const fern = {
-    id: 'fern',
+    id: '1',
     name: 'Kimberly Queen Fern',
     image: 'fern.jpeg',
     description: 'Graceful and timeless. This soft fern is low-maintenance and easy to care for.',
@@ -8,7 +8,7 @@ const fern = {
 };
 
 const rubber = {
-    id: 'rubber',
+    id: '2',
     name: 'Rubber Tree',
     image: 'rubber.jpeg',
     description: 'Rubber trees can measure over 100 feet tall in their native Asia, but regular pruning will keep the ornamental variety in check.',
@@ -17,7 +17,7 @@ const rubber = {
 };
 
 const pothos = {
-    id: 'pothos',
+    id: '3',
     name: 'Devils Ivy',
     image: 'pothos.jpg',
     description: 'This trailing vine has earned the nickname devils ivy for its ability to withstand nearly pitch-black conditions as well as under- and over-watering. ',
@@ -26,7 +26,7 @@ const pothos = {
 };
 
 const aglaonema = {
-    id: 'aglaonema',
+    id: '4',
     name: 'Chinese Evergreen',
     image: 'aglaonema.jpeg',
     description: 'Aglaonema can withstand excess H2O, and it comes in a spectrum of colors, including green, pink, white, and red.',
@@ -35,7 +35,7 @@ const aglaonema = {
 };
 
 const money = {
-    id: 'money',
+    id: '5',
     name: 'Money Tree',
     image: 'money.jpeg',
     description: 'Grows best in a shady spot (or winter windowsill) with weekly watering.',
@@ -44,7 +44,7 @@ const money = {
 };
 
 const calathea = {
-    id: 'calathea',
+    id: '6',
     name: 'Prayer Plant',
     image: 'calathea.jpeg',
     description: 'Prayer plants produce foliage pretty enough to outshine a bouquet, and you do not need a botany degree to maintain one.',
