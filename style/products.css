@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 70px;
     background-color: rgba(178, 75, 238, 0.603);
     border-radius: 15px;
     text-align: center;
@@ -18,4 +18,35 @@ header {
 a {
     color: rgba(255, 255, 255, 0.801);
     font-size: 30px;
+}
+
+h2{
+    color:rgb(198, 224, 208);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(178, 75, 238, 0.603);
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+}
+
+img{
+    width: 325px;
+    height: 300px;
+}
+
+footer {
+    height: 25px;
+    border-radius: 15px;
 }
