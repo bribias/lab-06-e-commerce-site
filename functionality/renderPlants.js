@@ -8,7 +8,7 @@ export function renderPlants(plants) {
     li.appendChild(h3);
 
     const img = document.createElement('img');
-    img.src = '../images/' + plants.image;
+    img.src = './images/' + plants.image;
     img.alt = plants.name + ' image';
     li.appendChild(img);
 
