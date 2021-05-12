@@ -48,7 +48,7 @@ main {
     padding: 20px;
 }
 
-ul {
+dl {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,9 +62,16 @@ ul {
 img{
     width: 325px;
     height: 300px;
+    border-radius: 10px;
 }
 
 footer {
     height: 25px;
     border-radius: 15px;
+}
+
+p {
+    width: 245px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
