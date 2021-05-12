@@ -1,5 +1,5 @@
 import plants from '../functionality/plants.js';
-import { getCart } from '../functionality/local-storage-utils.js';
+import { addToCart, getCart } from '../functionality/local-storage-utils.js';
 
 import { findById } from '../functionality/utils.js';
 
@@ -29,7 +29,7 @@ export function renderCartItem(cartItem) {
         currency: 'USD',
     });
     tr.append(nameTd, quantityTd, priceTd, totalTd);
-
+    
     return tr;
 }
 
