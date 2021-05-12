@@ -1,12 +1,13 @@
 import plants from '../functionality/plants.js';
-import { cartItems } from './cart-items.js';
+import { getCart } from '../functionality/local-storage-utils.js';
 
 import { findById } from '../functionality/utils.js';
+
+const cartItems = getCart();
 
 export function renderCartItem(cartItem) {
 
     const plant = findById(plants, cartItem.id);
-    console.log(cartItem, plants);
     const tr = document.createElement('tr');
     const nameTd = document.createElement('td');
     const quantityTd = document.createElement('td');

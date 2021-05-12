@@ -1,4 +1,10 @@
+import { addToCart } from './local-storage-utils.js';
+
 export function renderPlants(plants) {
+    const outerDiv = document.createElement('div');
+
+    outerDiv.classList.add('product');
+    
     const li = document.createElement('li');
     li.className = plants.category;
     li.title = plants.description;
@@ -20,11 +26,19 @@ export function renderPlants(plants) {
     p.textContent = usd;
 
     const button = document.createElement('button');
-    button.textContent = 'Add';
-    button.value = plants.code;
-    p.appendChild(button);
+    button.textContent = 'BUY ME';
+    
+    button.addEventListener('click', () => {
+        addToCart(plants.id);
+    });
 
-    li.appendChild(p);
+    outerDiv.append(
+        li,
+        h3,
+        img,
+        p,
+        button
+    );
 
-    return li;
+    return outerDiv;
 }

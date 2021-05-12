@@ -1,5 +1,9 @@
 import { renderCartItem, getCartTotal } from './renderCart.js';
-import { cartItems } from './cart-items.js';
+// import { cartItems } from './cart-items.js';
+
+import { getCart } from '../functionality/local-storage-utils.js';
+
+const cartItems = getCart();
 
 const anchor = document.querySelector('tbody');
 const total = document.getElementById('total');
