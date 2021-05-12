@@ -56,4 +56,19 @@ table {
     color: white;
     padding: 5px;
     margin-top: 10px;
+    border: solid 1px rgba(240, 237, 237, 0.671);
+}
+
+th {
+    width: 500px;
+    border: solid 1px rgba(240, 237, 237, 0.671);
+}
+
+td {
+    width: 500px;
+    border: solid 1px rgba(240, 237, 237, 0.671);
+}
+
+tfoot {
+    text-align: right;
 }
