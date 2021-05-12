@@ -20,3 +20,14 @@ total.textContent = totalPrice.toLocaleString('en-US', {
     style: 'currency',
     currency: 'USD'
 });
+
+const orderButton = document.querySelector('#orderButton');
+
+orderButton.addEventListener('click', () => {
+
+
+    alert('Place Your Order');
+    localStorage.clear();
+    location.reload();
+    return;
+});

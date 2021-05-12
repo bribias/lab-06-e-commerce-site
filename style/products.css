@@ -1,9 +1,13 @@
+* {
+        border-radius: 10px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url('../images/bg1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position:center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +20,6 @@ header {
     height: 80px;
     width: 700px;
     background-color: rgba(178, 75, 238, 0.267);
-    border-radius: 15px;
     text-align: center;
     color: white;
 }
@@ -43,31 +46,28 @@ main {
     width: 700px;
     color: ivory;
     margin: 5%;
-    border-radius: 15px;
     color: white;
     padding: 20px;
 }
 
-dl {
+ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: rgba(169, 124, 196, 0.603);
-    border-radius: 15px;
     color: white;
     padding: 5px;
+    list-style: none;
 }
 
 img{
     width: 325px;
     height: 300px;
-    border-radius: 10px;
 }
 
 footer {
     height: 25px;
-    border-radius: 15px;
 }
 
 p {

@@ -42,5 +42,6 @@ export function renderPlants(plants) {
         button
     );
 
+
     return outerDiv;
 }
