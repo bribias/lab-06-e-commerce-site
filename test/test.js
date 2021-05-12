@@ -1,1 +1,1 @@
-import '../renderPlants';
+import './example.test.js';
