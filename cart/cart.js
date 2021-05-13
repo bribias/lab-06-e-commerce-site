@@ -24,8 +24,7 @@ total.textContent = totalPrice.toLocaleString('en-US', {
 const orderButton = document.querySelector('#orderButton');
 
 orderButton.addEventListener('click', () => {
-
-
+    
     alert('Place Your Order');
     localStorage.clear();
     location.reload();

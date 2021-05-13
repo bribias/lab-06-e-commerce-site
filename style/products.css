@@ -75,3 +75,9 @@ p {
     text-align: center;
     color: rgb(255, 255, 255);
 }
+
+button {
+    background-color: rgba(236, 124, 161, 0.562);
+    box-shadow: 4px 6px rgb(71, 26, 88);
+    border: 1px solid rgba(71, 26, 88, 0.459);
+}
