@@ -55,7 +55,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgba(169, 124, 196, 0.603);
+    background-color: rgba(169, 124, 196, 0.603);;
     color: white;
     padding: 5px;
     list-style: none;
