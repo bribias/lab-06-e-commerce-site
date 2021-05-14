@@ -57,15 +57,9 @@ td {
 
 #mainIMG {
     border-radius: 10px;
-    margin-top: 10%;
-    margin-left: -30px;
     width: 600px;
     height: 450px;
-}
-main {
-    width: 625px;
-    height: 475px;
-    border-radius: 10px;
-    margin-top: 10%;
-    background-color: rgba(169, 124, 196, 0.603);
+    opacity: .85;
+    box-shadow: 30px;
+    margin-top: 30px;
 }
