@@ -24,9 +24,10 @@ total.textContent = totalPrice.toLocaleString('en-US', {
 const orderButton = document.querySelector('#orderButton');
 
 orderButton.addEventListener('click', () => {
-    
-    alert('Place Your Order');
+
+    alert(`Your order has been placed!`);
     localStorage.clear();
     location.reload();
+    window.location = '../index.html'
     return;
 });
