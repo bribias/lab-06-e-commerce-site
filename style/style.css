@@ -18,11 +18,13 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    height: 80px;
+    height: 90px;
     width: 700px;
     background-color: rgba(178, 75, 238, 0.267);
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 75px;
+    text-shadow: 10px 12px rgba(13, 48, 59, 0.767);
 }
 
 a {
